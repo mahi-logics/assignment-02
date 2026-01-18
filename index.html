@@ -19,5 +19,24 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
-<body class="">
+<body class="max-w-[1500px] mx-auto text-[white]">
+    <!-- Hero Section -->
+    <header class="bg-[#1A0B2E]">
+
+        <nav class="w-[75%] max-md:w-[90%] mx-auto py-7.5 flex justify-between  items-center border-b-[#412567]">
+
+            <img class="max-sm:w-[40%] cursor-pointer" src="assets/logo.png" alt="">
+            <ul class="flex gap-8 font-medium max-md:hidden">
+                <li><a href="">About</a></li>
+                <li><a href="">Episodes</a></li>
+                <li><a href="">Host</a></li>
+            </ul>
+            <button class="max-md:hidden px-4.5 py-2 rounded-[30px] cursor-pointer bg-linear-to-tr from-[#F7E93F] from-0% via-[#FB09B4] via-51% to-[#9100F8] to-100% font-semibold">
+                Subscribe →
+            </button>
+            <img class=" cursor-pointer md:hidden" src="assets/hamburger-menu.png" alt="">
+            
+        </nav>
+    </header>
+</body>
 </html>
