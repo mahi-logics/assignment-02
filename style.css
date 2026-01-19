@@ -2,3 +2,16 @@
     font-family: "Inter", sans-serif;
     scrollbar-width: none;
 }
+
+
+
+@keyframes move {
+    from{
+        transform: translateX(200px);
+        
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
