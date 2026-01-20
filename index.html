@@ -36,20 +36,21 @@
                 <li><a href="">Episodes</a></li>
                 <li><a href="">Host</a></li>
             </ul>
-            <button
+            <button id="move"
                 class="max-md:hidden px-4.5 py-2 rounded-[30px] cursor-pointer bg-linear-to-tr from-[#F7E93F] from-0% via-[#FB09B4] via-60% to-[#9100F8] to-100% font-semibold">
                 Subscribe →
             </button>
             <img class=" cursor-pointer md:hidden" src="assets/hamburger-menu.png" alt="">
 
         </nav>
+        <hr class="opacity-[0.2]">
 
         <!-- Banner Section -->
 
         <section class="bg-[url(assets/hero-bg.png)]  bg-contain bg-no-repeat bg-position-[0%_15%]">
             <div class=" py-23 max-sm:py-5 max-w-[550px] mx-auto text-center">
 
-                <div
+                <div id="slide"
                     class="bg-[url(assets/hero-circle.png)] bg-no-repeat bg-center  bg-contain mb-8 max-sm:mb-4  relative max-sm:h-[150px] ">
 
                     <img class="mx-auto py-17 max-w-[200px] max-sm:max-w-15 max-sm:pt-7" src="assets/microphone.png"
@@ -69,7 +70,7 @@
                         <img class="w-5 h-5" src="assets/spotify.png" alt="">
                         Listen on Spotify
                     </button>
-                    <button
+                    <button 
                         class="flex gap-2 items-center text-[#00FF88] border-[#00FF88] border px-4.5 py-2 rounded-[30px] cursor-pointer">
                         <img class="w-5 h-4 " src="assets/message.png" alt="">
                         Subscribe
@@ -127,13 +128,13 @@
         <!-- Feature Section -->
         <!-- why choose techwave -->
         <section class=" bg-[#230E3D]">
-            <div class="w-[75%] max-w-[1200px] mx-auto py-30 max-sm:py-10 max-sm:w-[95%]">
+            <div class="xl:w-[75%] w-[90%] max-w-[1200px] mx-auto py-30 max-sm:py-10 max-sm:w-[90%]">
                 <h3 class="mb-10 text-5xl font-bold text-center max-sm:text-3xl">Why Choose TechWave</h3>
 
-                <div class="grid gap-7 grid-cols-2 xl:grid-cols-3 xl:grid-rows-3 max-md:grid-cols-1">
+                <div class="grid gap-7 grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 max-md:grid-cols-1">
 
                     <div
-                        class="p-10 bg-[#35116566] rounded-[40px] xl:row-span-2 flex flex-col justify-center max-sm:p-6">
+                        class="p-10 bg-[#35116566] rounded-[40px] lg:row-span-2 flex flex-col justify-center max-sm:p-6">
                         <img class="w-[60px]" src="assets/headphone.png" alt="">
                         <h4 class="text-2xl font-bold my-4">Premium Audio Quality</h4>
                         <p class="opacity-[0.6]">Experience crystal-clear sound with professional-grade recording
@@ -142,7 +143,7 @@
                     </div>
 
                     <div
-                        class="p-10 bg-[#35116566] rounded-[40px] xl:col-span-2 flex flex-col justify-center max-sm:p-6">
+                        class="p-10 bg-[#35116566] rounded-[40px] lg:col-span-2 flex flex-col justify-center max-sm:p-6">
                         <img class="w-[60px]" src="assets/device.png" alt="">
                         <h4 class="text-2xl font-bold my-4">Mobile Friendly</h4>
                         <p class="opacity-[0.6]">Listen on the go with seamless mobile experience and offline downloads.
@@ -150,13 +151,13 @@
                     </div>
 
                     <div
-                        class="p-10 bg-[#35116566] rounded-[40px] xl:col-span-2 flex flex-col justify-center max-sm:p-6">
+                        class="p-10 bg-[#35116566] rounded-[40px] lg:col-span-2 flex flex-col justify-center max-sm:p-6">
                         <img class="w-[60px]" src="assets/location.png" alt="">
                         <h4 class="text-2xl font-bold my-4">Global Community</h4>
                         <p class="opacity-[0.6]">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                     </div>
 
-                    <div class="p-10 bg-[#35116566] rounded-[40px] xl:col-span-2 max-sm:p-6">
+                    <div class="p-10 bg-[#35116566] rounded-[40px] lg:col-span-2 max-sm:p-6">
                         <img src="assets/power.png" alt="">
                         <h4 class="text-2xl font-bold my-4">Exclusive Interviews</h4>
                         <p class="opacity-[0.6]">Get unprecedented access to industry titans, startup founders, and tech
@@ -165,7 +166,7 @@
                             success strategies.</p>
                     </div>
 
-                    <div class="p-10 bg-[#35116566] rounded-[40px] max-sm:p-6 max-md:col-span-1 max-xl:col-span-2">
+                    <div class="p-10 bg-[#35116566] rounded-[40px] max-sm:p-6 max-md:col-span-1 max-lg:col-span-2">
                         <img src="assets/resource.png" alt="">
                         <h4 class="text-2xl font-bold my-4">Rich Resources</h4>
                         <p class="opacity-[0.6]">Access show notes, transcripts, and additional learning materials for
@@ -180,7 +181,7 @@
             <div class=" max-w-[1200px] mx-auto py-30 max-sm:py-12">
                 <h3 class="mb-10 text-5xl font-bold text-center max-sm:text-3xl">Featured Episodes</h3>
 
-                <div class="flex gap-7 flex-wrap justify-center max-sm:w-[95%] max-sm:mx-auto">
+                <div class="flex gap-7 flex-wrap justify-center max-sm:w-[90%] max-sm:mx-auto">
 
                     <div class="bg-[#250D44] max-w-[380px] rounded-2xl">
                         <iframe class="rounded-t-2xl" width="100%" height="215" 
@@ -261,7 +262,7 @@
     </main>
 
     <footer class="py-30 max-sm:py-10 bg-[url(assets/footer-bg.png)] bg-no-repeat
-    bg-size-[100%_100%] ">
+    bg-size-[100%_100%]">
         <div class="max-w-[544px] max-sm:w-[90%] mx-auto text-center ">
             <img class="mx-auto h-[50px] max-sm:h-8"  src="assets/logo.png" alt=""> 
 

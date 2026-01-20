@@ -3,15 +3,30 @@
     scrollbar-width: none;
 }
 
+#slide{
+    animation: slide 1s  1 ;
+}
 
+#move{
+    animation: move 1s   1  ;
+}
 
-@keyframes move {
+@keyframes slide{
     from{
-        transform: translateX(200px);
-        
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes move{
+    from{
+        transform: translateX(50px);
     }
     to{
         transform: translateX(0px);
     }
 }
+
 
